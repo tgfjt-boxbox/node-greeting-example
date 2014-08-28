@@ -6,8 +6,11 @@ var greeting = require('..');
 var hello = require('../lib/hello');
 
 // print hello
-console.log(chalk.green(hello.join('\n')));
+console.log(
+	chalk.green(hello.join('\n')));
 // print waveline
-console.log(chalk.blue(greeting.waveline(30)), '\n');
+console.log(
+	chalk.blue(greeting.waveline(30)), '\n');
 // print message
-console.log(chalk.magenta.bold(greeting.hello()));
+console.log(
+	chalk.magenta.bold(greeting.hello()));

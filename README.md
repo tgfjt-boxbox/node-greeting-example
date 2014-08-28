@@ -20,7 +20,10 @@ $ greeting
 
 ```
 $ echo 'greeting' >> ~/.bashrc
+$ source ~/.bashrc
 ```
+
+![image](https://raw.githubusercontent.com/tgfjt/node-greeting-example/master/screenshot.gif)
 
 ## License
 

@@ -1,6 +1,6 @@
 {
-	"maxerr": 1000,
-	"indent": 4,
+	"maxerr": 100,
+	"indent": 2,
 	"maxparams": 5,
 	"maxdepth": 3,
 	"maxstatements": 20,
@@ -21,11 +21,11 @@
 	"quotmark": true,
 	"undef": true,
 	"unused": true,
-	"strict": false,
+	"strict": true,
 	"trailing": true,
 	"eqnull": true,
 	"lastsemic": true,
-	"browser": true,
+	"browser": false,
 	"predef": [
 		"describe",
 		"it",
