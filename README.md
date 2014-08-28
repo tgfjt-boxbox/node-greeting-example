@@ -1,17 +1,27 @@
 # node greeting example
 
-only for example message.
+only for example message.  
+
+[![Build Status](https://travis-ci.org/tgfjt/node-greeting-example.svg)](https://travis-ci.org/tgfjt/node-greeting-example)
 
 ## Install
 
 ```
-$ npm i -g tgfjt/node-greeting-example`
+$ npm i -g tgfjt/node-greeting-example
 ```
 
 ## Usage
 
 ```
 $ greeting
+```
+
+### シェル起動時に実行する
+
+`.bashrc` に追記。
+
+```
+echo 'greeting' >> ~/.bashrc
 ```
 
 ## License
