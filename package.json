@@ -13,8 +13,11 @@
   "author": "tgfjt",
   "license": "MIT",
   "devDependencies": {
+    "coveralls": "^2.11.1",
+    "istanbul": "^0.3.0",
     "jshint": "^2.5.5",
     "mocha": "^1.21.4",
+    "mocha-lcov-reporter": "0.0.1",
     "sinon": "^1.10.3"
   },
   "dependencies": {
