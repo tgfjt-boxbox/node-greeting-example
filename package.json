@@ -1,0 +1,23 @@
+{
+  "name": "node-greeting-example",
+  "version": "0.0.0",
+  "description": "greeting",
+  "main": "greeting.js",
+  "scripts": {
+    "pretest": "node ./node_modules/.bin/jshint index.js lib/words.js bin/greeting tests/*.js",
+    "test": "node ./node_modules/.bin/mocha tests/*.js"
+  },
+  "bin": {
+    "greeting": "./bin/greeting"
+  },
+  "author": "tgfjt",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.5.5",
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1"
+  }
+}
