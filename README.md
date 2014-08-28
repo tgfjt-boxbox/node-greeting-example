@@ -16,12 +16,10 @@ $ npm i -g tgfjt/node-greeting-example
 $ greeting
 ```
 
-### シェル起動時に実行する
-
-`.bashrc` に追記。
+### .bashrc
 
 ```
-echo 'greeting' >> ~/.bashrc
+$ echo 'greeting' >> ~/.bashrc
 ```
 
 ## License
