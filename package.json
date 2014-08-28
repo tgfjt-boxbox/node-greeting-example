@@ -5,7 +5,8 @@
   "main": "greeting.js",
   "scripts": {
     "pretest": "node ./node_modules/.bin/jshint index.js lib/words.js bin/greeting tests/*.js",
-    "test": "node ./node_modules/.bin/mocha tests/*.js"
+    "test": "node ./node_modules/.bin/mocha tests/*.js",
+    "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec tests/ && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "bin": {
     "greeting": "./bin/greeting"
